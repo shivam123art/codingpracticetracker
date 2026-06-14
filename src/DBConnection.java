@@ -6,11 +6,11 @@ public class DBConnection {
     public static Connection getConnection() {
 
         try {
-
+        // replace with your mysql password
             Connection con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/coding_tracker",
                     "root",
-                    "8979"
+                    "your_password"
             );
 
             return con;
